@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../assests/background.png");
+}
+
+.profile-box{
+    position:absolute;
+    height: 447px;
+    width: 430.8px;
+    font-family: sans-serif;
+    left: 40rem;
+    top:20rem;
+    color: #FFFFFF;
+    background-color: #ff574a;
+    padding: 40px 90px 40px 90px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.social-media img{
+    width: 20px;
+}
+
+.social-media img:hover{
+    cursor: pointer;
+}
+
+.profile-pic{
+    position: relative;
+    top: 30px;
+    border-radius: 50%;
+    width: 150px;
+    padding: 6px;
+    border: 2px solid white;
+}
+
+.profile-box h3{
+    position: relative;
+    top: 35px;
+}
+
+.profile-box p{
+    position: relative;
+    top: 35px;
+}
+
+.profile-box .social-media{
+    position: relative;
+    top: 50px;
+}
+
+.menu-icon{
+    position: absolute;
+    left: 30px;
+    width: 25px;
+}
+
+.setting-icon{
+    position: absolute;
+    right: 30px;
+    width: 25px;
+}
